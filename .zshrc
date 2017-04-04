@@ -94,3 +94,6 @@ alias ll='ls -l --color=auto'
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias vi='vim'
+
+######mpich-3.2######
+export PATH=/opt/mpich-3.2/bin:$PATH

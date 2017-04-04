@@ -39,3 +39,6 @@ colors() {
 ######Terminal-256color######
 export TERM=xterm-256color
 
+######mpich-3,2######
+export PATH=/opt/mpich-3.2/bin:$PATH
+
