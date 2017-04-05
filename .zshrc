@@ -21,7 +21,7 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+ export UPDATE_ZSH_DAYS=14
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -52,7 +52,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,3 +97,8 @@ alias vi='vim'
 
 ######mpich-3.2######
 export PATH=/opt/mpich-3.2/bin:$PATH
+
+######autojump######
+[[ -s /home/zysun/.autojump/etc/profile.d/autojump.sh  ]] && source /home/zysun/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
+
