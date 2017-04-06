@@ -82,6 +82,11 @@ set background=dark
 "colorscheme solarized
 colorscheme molokai
 "colorscheme phd
+"vim-powerline
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show Unicode glyphs
+let g:Powerline_symbols = 'fancy'
 
 "3.2	---------------------营造专注氛围
 " 禁止光标闪烁
