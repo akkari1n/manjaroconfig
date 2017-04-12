@@ -102,3 +102,10 @@ export PATH=/opt/mpich-3.2/bin:$PATH
 [[ -s /home/zysun/.autojump/etc/profile.d/autojump.sh  ]] && source /home/zysun/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
+######hdf5-parallel######
+export PATH=/opt/hdf5-1.10.0-parallel/bin:$PATH
+export HDF5_ROOT_DIR=/opt/hdf5-1.10.0-parallel
+export LD_LIBRARY_PATH=/opt/hdf5-1.10.0-parallel/lib:$LD_LIBRARY_PATH
+
+######HDFView######
+export PATH=/home/zysun/opt/HDFView/HDFView/2.13.0:$PATH
